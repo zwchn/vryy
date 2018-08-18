@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="shortcut icon" href="worldcup.ico" >
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <title>世界杯直播 智云影音官方直播平台</title>
+    <meta charset="utf-8">
+<meta name="application-name" content="获取最新聚合直播源码请联系QQ号2248186422,VST手机版,智卓星网影视电视直播手机版,高清MV视频,在线直播，聚合直播平台，免费在线观看" />
+<meta name="title" content="更多精品免费源码下载https://pan.baidu.com/s/1kVIe1Bx"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="手机高清在线播放,VST,直播,手机版,高清,免费在线观看,MV视频,在线高清电影电视">
+<meta name="description" content="其他资源发布地址https://zhiyun.wodemo.net/entry/455642">
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#" id="channeltitle">世界杯直播 点击更换源→</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  点击切换信号源
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"  id="10">CCTV-5+体育赛事高清[信号源1]</a>
+       
+                  <a class="dropdown-item" id="11">CCTV-5+体育赛事高清[信号源2]</a>
+                                          <a class="dropdown-item" id="22">CCTV-13新闻央视频道</a>
+                  <div class="dropdown-divider"></div>
+                   <a class="dropdown-item"  id="12">CCTV-5+体育赛事高清[教育网源]</a>
+       
+                  <a class="dropdown-item" id="13">CCTV-5+体育赛事高清[西安广电源1]</a>
+                   <a class="dropdown-item" id="17">CCTV-5+体育赛事高清[CGTN信号源]</a>
+                    <a class="dropdown-item" id="14">CCTV-5+体育赛事高清[信号源4]</a>
+                     <a class="dropdown-item" id="15">CCTV-5HD体育赛事高清[北京移动源1]</a>
+                      <a class="dropdown-item" id="16">CCTV-5HD体育赛事高清[北京移动源2]</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item"  id="20">CNTV1[CNTV直播源]</a>
+                  <a class="dropdown-item" id="21">CCTV5+-HD[信号源2]</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" id="30">CCTV5[CNTV信号源1]</a>
+                  <a class="dropdown-item" id="31">CCTV5[其他高清直播源]</a>
+                  <a class="dropdown-item" id="32">CCTV5高清HD[CCTV官方直播源]</a>
+                  <a class="dropdown-item" id="33">CCTV5[CNTV信号源2]</a>
+                  
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" id="40">风云足球[直播源]</a>
+
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link disabled"  id="curChannel"></a>
+                </li>
+            </ul>
+            <form class="form-inline my-4 my-lg-0">
+                <input id="playUrl" class="form-control mr-sm-4" placeholder="直播源地址"/>
+                <button id="playBtn" class="btn btn-outline-success my-4 my-sm-0" >播放</button>
+              </form>
+          </div>
+        </nav>
+
+       <div class="container" style="height: 100vh;">
+       <div class="row" style="height: 2vh;"></div>
+        <div class="row" style="height: 70vh; " >
+            <div id="a1" class="col-sm-8 col-xs-8 col-sm-8 offset-sm-2 offset-md-2 offset-lg-2 col-lg-8" ></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-xs-8 col-sm-8 offset-sm-2 offset-md-2 offset-lg-2 col-lg-8" >
+                <img class="center-block" alt="世界杯赛程表" style="margin-top: 10px; margin-bottom: 50px; max-width: 100%; height: auto; width:auto;" src="tp.jpg"/>
+            </div>
+            
+        </div>
+       </div>
+      
+            
+        
+        
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-98433865-2');
+</script>
+
+
+    <script type="text/javascript">
+      var videoObject = {
+        container: '#a1',//“#”代表容器的ID，“.”或“”代表容器的class
+        variable: 'player',//该属性必需设置，值等于下面的new chplayer()的对象
+        autoplay:true,//自动播放
+        live:true,
+        video:'http://cctv5.txty.5213.liveplay.myqcloud.com/live/cctv5_txty.m3u8'
+      };
+      var player=new ckplayer(videoObject);
+    </script>
+    
+  
+  <script>
+    var videourl = "";
+    $('.btn').click(function(){
+    var id = $(this).attr('id');
+      switch(id)
+      {
+        case "playBtn":
+          videourl = $('#playUrl').val();
+          $('#curChannel').text("用户自定义信号源");
+          if(videourl.trim() == "") return;
+          break;
+      }
+    });
+
+    var video = document.getElementById('a1');
+  if(Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videourl);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+ // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+ // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element throught the `src` property.
+ // This is using the built-in support of the plain video element, without using hls.js.
+ // Note: it would be more normal to wait on the 'canplay' event below however on Safari (where you are most likely to find built-in HLS support) the video.src URL must be on the user-driven
+ // white-list before a 'canplay' event will be emitted; the last video event that can be reliably listened-for when the URL is not on the white-list is 'loadedmetadata'.
+  else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = videourl;
+    video.addEventListener('loadedmetadata',function() {
+      video.play();
+    });
+  }
+      </script>
+  
+  <script>
+    var videourl = "";
+    $('.dropdown-item').click(function(){
+      var id = $(this).attr('id');
+    
+    switch(id)
+    {
+      case "10":
+        videourl = "";
+        $('#curChannel').text("CCTV-5+体育赛事高清[信号源1]");
+        break;
+      case "11":
+        videourl = "http://livehls1-al.wasu.cn/hd_cctv5/z.m3u8";
+        $('#curChannel').text("CCTV-5+体育赛事高清[信号源2]");
+        break;
+       case "22":
+        videourl = "http://liveali.ifeng.com/live/CCTV.flv";
+        $('#curChannel').text("CCTV13新闻央视直播");
+break;
+        case "12":
+        videourl = "http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8";
+        $('#curChannel').text("CCTV-5+体育赛事高清[中国教育源]");
+break;
+case "13":
+        videourl = "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221225942/1.m3u8";
+        $('#curChannel').text("CCTV-5+体育赛事高清[西安广电源1]");
+break;
+case "17":
+        videourl = "http://livedoc.cgtn.com/1000d/prog_index.m3u8";
+        $('#curChannel').text("CCTV-5+体育赛事高清[CGTN直播源]");
+break;
+case "14":
+        videourl = "http://117.169.120.209:8080/live/cctv-5/.m3u8";
+        $('#curChannel').text("CCTV-5+体育赛事高清[信号源4]");
+break;
+case "15":
+        videourl = "http://111.48.34.225/wh7f454c46tw3959804014_1567773701/huaweicdn.hb.chinamobile.com/PLTV/2510088/224/3221225828/index.m3u8";
+        $('#curChannel').text("CCTV-5HD体育赛事高清[北京移动源1]");
+break;
+case "16":
+        videourl = "http://audio.live.cntv.dnion.com/cache/214_/seg0/index.m3u8";
+        $('#curChannel').text("CCTV-5HD体育赛事高清[北京移动源2]");
+break;
+      case "20":
+        videourl = "http://live.cetv.cn/video/s10001-cetv1-2/index.m3u8";
+        $('#curChannel').text("CNTV1HD[CNTV信号源]");
+        break;
+      case "21":
+        videourl = "http://223.110.241.204:6610/cntv/live1/hdcctv05plus/hdcctv05plus/index.m3u8";
+        $('#curChannel').text("CCTV5+-HD[信号源2]");
+        break;
+      case "30":
+        videourl = "http://audio.live.cntv.dnion.com:8000/cache/214_/seg0/index.m3u8";
+        $('#curChannel').text("CCTV5[CNTV信号源1]");
+        break;
+      case "31":
+        videourl = "http://39.134.52.171/wh7f454c46tw3773685428_-1812949401/hwottcdn.ln.chinamobile.com/PLTV/88888890/224/3221226035/index.m3u8";
+        $('#curChannel').text("CCTV5[其他高清移动源]");
+        break;
+      case "32":
+        videourl = "http://cctv5.txty.5213.liveplay.myqcloud.com/live/cctv5_txty.m3u8";
+        $('#curChannel').text("CCTV5[CCTV官方直播源]");
+        break;
+      case "33":
+        videourl = "http://audio.live.cntv.dnion.com:8000/cache/259_/seg0/index.m3u8";
+        $('#curChannel').text("CCTV5[CNTV信号源2]");
+        break; 
+
+      case "40":
+        videourl = "http://223.110.243.168/PLTV/2510088/224/3221227344/1.m3u8";
+        $('#curChannel').text("风云足球[直播源]");
+        break;  
+
+
+      //风云足球
+     // http://223.110.243.168/PLTV/2510088/224/3221227344/1.m3u8  
+
+      // 可以用播放器播放，但网页版无效
+      // case "40":
+      //   videourl = "http://223.110.241.204:6610/cntv/live1/HD-2500k-1080P-cctv1/HD-2500k-1080P-cctv1/index.m3u8";
+      //   $('#curChannel').text("CCTV1-综合[信号源0]");
+      //   break;
+      // case "41":
+      //   videourl = "http://223.110.241.204:6610/cntv/live1/cctv-1/cctv-1/index.m3u8";
+      //   $('#curChannel').text("CCTV1-综合[信号源1]");
+      //   break;
+    }
+    var videoObject = {
+        container: '#a1',//“#”代表容器的ID，“.”或“”代表容器的class
+        variable: 'player',//该属性必需设置，值等于下面的new chplayer()的对象
+        autoplay:false,//自动播放
+        live:true,
+        video: videourl//视频地址
+      };
+      var player=new ckplayer(videoObject);
+  })
+  </script>
+
+       
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+</div>
+</div>
+</div>
+<div style="text-align:center;margin:30px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<h2>由<a href="http://www.jianshu.com/p/372de0578126">智卓星网联盟</a>提供</h2>
+<span class="leftimg"><img src="http://i2.letvimg.com/lc07_iscms/201607/14/15/53/2bb29841e1b14e4d82b56727059c0a2a.png" width="60" height="60" class="img-responsive"></span>
+<span class="leftimg"><img src="https://s1.xmcdn.com/wap/css/img/common/ting.png" width="60" height="60" class="img-responsive"></span>
+<span class="leftimg"><img src="https://gss3.bdstatic.com/84oSdTum2Q5BphGlnYG/timg?wapp&quality=100&size=b520_2000&cut_x=0&cut_w=0&cut_y=0&cut_h=0&sec=1369815402&di=716d11d973c0ebbaab78d3df9412ace7&wh_rate=null&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fpic%2Fitem%2F4afbfbedab64034f25bf677ba7c379310a551d58.jpg" width="60" height="60" class="img-responsive"></span>
+<span class="leftimg"><img src="https://static.youku.com/paymentcenter/vip/mobile/build/images/projector-h-bg.png" width="60" height="60" class="img-responsive"></span>
+<h4>总站长联系QQ:
+<a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=0c3e0c0888e55a6877daa46cbc3b40e68c21e0076cecd586"><img border="0" src="http://wpa.qq.com/imgd?IDKEY=0c3e0c0888e55a6877daa46cbc3b40e68c21e0076cecd586&pic=51" alt="点击这里给我发消息" title="点击这里给我发消息"></a><a href="http://wpa.qq.com/msgrd?v=3&uin=2248186422&site=qq&menu=yes">2248186422</a></h4></div>
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/18759442.js"></script>
+<noscript><a href="http://www.51.la/?18759442" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/18759442.asp" style="border:none" /></a></noscript>
+
+
+  </body>
+</html>
