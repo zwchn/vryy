@@ -1,7 +1,7 @@
 <?php
  $aik =  array (
   'sitename' => '免费VR影院',
-  'pcdomain' => 'http://video.zhangwei.org/',
+  'pcdomain' => 'http://www.vr7.top/',
   'title' => '﻿智云影院-免VIP抢先观看最新好看的电影和电视剧在线聚合直播平台',
   'keywords' => '智云影院,电视直播网站,零八影院快播,在线聚合直播平台，手机在线观看，在线直播，最新电影在线观看，高清云影视,云点播,免费看视频,湖南卫视直播,80电影网,最新电影天堂免费在线观看',
   'description' => '﻿智云影院,热剧快播,最好看的剧情片尽在﻿智云影院,高清云影视免费为大家提供最新最全的免费电影，电视剧，综艺，动漫无广告在线云点播，以及电视直播',
@@ -61,7 +61,7 @@ window.document.write(\'<script id="changyan_mobile_js" charset="utf-8" type="te
   'jiazai_ad' => '<a href="https://zhiyun.wodemo.net/entry/455642" target="_blank"><img src="images/jiazai.png" width="100%"></a>',
   'tishi_ad' => '<style> 
  .black_overlay{  display: none;  position: absolute;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  background-color: black;  z-index:1001;  -moz-opacity: 0.8;  opacity:.80;  filter: alpha(opacity=80);  }  .white_content {  display: none;  position: absolute;  top: 25%;  left: 25%;  width: 50%;   height: auto; padding: 16px;  border: 16px solid orange;  background-color: white;  z-index:1002;  overflow: auto;  }  </style> 
-<a href="javascript:void(0)" onclick="document.getElementById(\'light\').style.display=\'block\';document.getElementById(\'fade\').style.display=\'block\'"><p style="text-align:center;color: #fff;font-size: 10px;background: #6ED56C;padding:11px 8px;border-radius: 2px;">点击关注“智云影院”官方微信，看电影更方便!</p></a>
+<a href="javascript:void(0)" onclick="document.getElementById(\'light\').style.display=\'block\';document.getElementById(\'fade\').style.display=\'block\'"><p style="text-align:center;color: #fff;font-size: 10px;background: #6ED56C;padding:11px 8px;border-radius: 2px;">点击关注“免费VR影院”官方微信，看电影更方便!</p></a>
 <div id="light" class="white_content"> 
   <img src="images/qrcode.png" width="100%" height="100%">
     <a href="javascript:void(0)" onclick="document.getElementById(\'light\').style.display=\'none\';document.getElementById(\'fade\').style.display=\'none\'"> 
